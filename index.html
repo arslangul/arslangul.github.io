@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>M Arslan Gul</title>
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <meta name="description" content="M Arslan Gul, Senior Software Engineer in Islamabad. Backend systems, REST APIs, CI/CD and AI features for healthcare, IoT and fraud-detection platforms.">
+  <meta name="author" content="M Arslan Gul">
+  <meta name="theme-color" content="#0A0A0B">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="M Arslan Gul, Senior Software Engineer">
+  <meta property="og:description" content="10+ years building Node.js and PHP backends, REST APIs and AI-powered features.">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "M Arslan Gul",
+    "alternateName": "Muhammad Arslan Gul",
+    "jobTitle": "Senior Software Engineer",
+    "worksFor": { "@type": "Organization", "name": "Naviquis" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Islamabad", "addressCountry": "PK" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Bahria University" },
+    "knowsAbout": ["Node.js", "PHP", "Laravel", "REST API design", "Microservices", "Redis", "Docker", "CI/CD", "OpenAI API", "Elasticsearch", "AWS"],
+    "sameAs": ["https://www.linkedin.com/in/arslangul93"]
+  }
+  </script>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/geist-sans-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="assets/images/profile.webp" type="image/webp">
+
+  <link rel="stylesheet" href="assets/app.css">
+
+  <!-- Flags read by CSS: .js, .reduced (less motion), and the saved light/dark + accent themes, applied before first paint -->
+  <script>
+    document.documentElement.classList.add('js');
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('reduced');
+    try { if (localStorage.getItem('theme') === 'light') document.documentElement.dataset.theme = 'light'; } catch (e) {}
+    try { var a = localStorage.getItem('accent'); if (/^(ocean|violet|cyan|rose|amber|mono|lagoon|sunset|borealis|citrus|royal)$/.test(a)) document.documentElement.dataset.accent = a; } catch (e) {}
+  </script>
+
+  <!-- Animation libraries, self-hosted (GSAP 3.12.5, Lenis 1.1.13) -->
+  <script defer src="assets/vendor/gsap.min.js"></script>
+  <script defer src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script defer src="assets/vendor/Flip.min.js"></script>
+  <script defer src="assets/vendor/lenis.min.js"></script>
+
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+
+  <!-- ================= Side rail (desktop) / top bar (mobile) ================= -->
+  <header class="rail" id="rail">
+    <a class="rail__logo magnetic" href="#top" aria-label="M Arslan Gul, back to top"><span>AG</span></a>
+
+    <nav class="rail__nav" id="site-nav" aria-label="Main">
+      <span class="rail__indicator" aria-hidden="true"></span>
+      <a class="rail__link" href="#about" data-label="About"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="5" /> <path d="M20 21a8 8 0 0 0-16 0" /></svg><span>About</span></a>
+      <a class="rail__link" href="#experience" data-label="Experience"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12h.01" /> <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" /> <path d="M22 13a18.15 18.15 0 0 1-20 0" /> <rect width="20" height="14" x="2" y="6" rx="2" /></svg><span>Experience</span></a>
+      <a class="rail__link" href="#work" data-label="Work"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z" /> <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65" /> <path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65" /></svg><span>Work</span></a>
+      <a class="rail__link" href="#stack" data-label="Skills"><svg viewBox="0 0 24 24" aria-hidden="true"><rect width="16" height="16" x="4" y="4" rx="2" /> <rect width="6" height="6" x="9" y="9" rx="1" /> <path d="M15 2v2" /> <path d="M15 20v2" /> <path d="M2 15h2" /> <path d="M2 9h2" /> <path d="M20 15h2" /> <path d="M20 9h2" /> <path d="M9 2v2" /> <path d="M9 20v2" /></svg><span>Skills</span></a>
+      <a class="rail__link" href="#practice" data-label="How I build"><svg viewBox="0 0 24 24" aria-hidden="true"><rect width="8" height="8" x="3" y="3" rx="2" /> <path d="M7 11v4a2 2 0 0 0 2 2h4" /> <rect width="8" height="8" x="13" y="13" rx="2" /></svg><span>How I build</span></a>
+      <a class="rail__link" href="#api" data-label="API"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="4 17 10 11 4 5" /> <line x1="12" x2="20" y1="19" y2="19" /></svg><span>API</span></a>
+      <a class="rail__link" href="#contact" data-label="Contact"><svg viewBox="0 0 24 24" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2" /> <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg><span>Contact</span></a>
+    </nav>
+
+    <div class="rail__progress" aria-hidden="true"><span></span></div>
+
+    <div class="rail__end">
+      <button class="rail__btn" id="palette-open" type="button" aria-haspopup="dialog" aria-label="Open command menu (Ctrl K)" data-label="Search  Ctrl K">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8" /> <path d="m21 21-4.3-4.3" /></svg>
+      </button>
+      <button class="rail__btn mode-toggle" id="mode-toggle" type="button" aria-pressed="false" aria-label="Switch to light theme" data-label="Light theme">
+        <svg class="mode-toggle__sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></svg>
+        <svg class="mode-toggle__moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" /></svg>
+      </button>
+      <button class="rail__btn" id="theme-open" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="theme-menu" aria-label="Change colour theme" data-label="Colour theme">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor" /> <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" /> <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" /> <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" /> <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" /></svg>
+      </button>
+      <button class="rail__btn nav-toggle" id="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= Hero: open two-column layout ================= -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="hero__role" data-hero-fade><span class="pulse" aria-hidden="true"></span>Senior Software Engineer</p>
+          <h1 class="hero__name" id="hero-title" aria-label="Arslan Gul">
+            <span class="hero__line" data-chars>Arslan</span>
+            <span class="hero__line" data-chars>Gul</span>
+          </h1>
+          <p class="hero__lede" data-hero-fade>Backends for healthcare, IoT and fraud detection: APIs that stay fast, secure and easy to change.</p>
+          <div class="hero__actions" data-hero-fade>
+            <a class="btn btn--grad magnetic" href="#work"><span>View work</span></a>
+            <a class="btn btn--ghost magnetic" href="assets/docs/M-Arslan-Gul-CV.pdf" download="M-Arslan-Gul-CV.pdf" data-cv title="ATS-friendly PDF"><span>Download CV</span></a>
+          </div>
+          <dl class="hero__facts" data-hero-fade>
+            <div><dt>Experience</dt><dd><b><span data-count="10">10</span>+</b> years</dd></div>
+            <div><dt>Shipped</dt><dd><b data-count="9">9</b> platforms</dd></div>
+            <div><dt>Now</dt><dd>AI features &amp; search at Naviquis</dd></div>
+          </dl>
+        </div>
+
+        <figure class="hero__portrait portrait" id="portrait">
+          <div class="portrait__frame">
+            <img class="portrait__base" src="assets/images/profile.webp" alt="Portrait of M Arslan Gul" width="790" height="900" fetchpriority="high">
+            <img class="portrait__color" src="assets/images/profile.webp" alt="" aria-hidden="true" width="790" height="900">
+            <span class="portrait__scan" aria-hidden="true"></span>
+          </div>
+          <figcaption class="portrait__hint">Hover for colour</figcaption>
+          <p class="portrait__clock" data-hero-fade><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /> <circle cx="12" cy="10" r="3" /></svg>Islamabad <time id="clock">--:--</time></p>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ================= Marquee ================= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Node.js</span><span>Express</span><span>Laravel</span><span>REST APIs</span><span>Microservices</span><span>OpenAI API</span><span>Elasticsearch</span><span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>Redis</span><span>Docker</span><span>CI/CD</span><span>AWS</span><span>IIS</span>
+      </div>
+    </div>
+
+    <!-- ================= About ================= -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about__grid">
+          <aside class="about__side">
+            <h2 class="eyebrow" id="about-title"><span class="eyebrow__n">01</span>About</h2>
+            <dl class="about__facts" data-fade>
+              <div><dt>Now</dt><dd>Senior Software Engineer, Naviquis</dd></div>
+              <div><dt>Based in</dt><dd>Islamabad, Pakistan</dd></div>
+              <div><dt>Experience</dt><dd>10+ years in backend</dd></div>
+              <div><dt>Domains</dt><dd>Healthcare, IoT, fraud detection</dd></div>
+              <div><dt>Outside work</dt><dd>Helping run the Zigron Cricket Fiesta since 2017</dd></div>
+            </dl>
+          </aside>
+          <div class="about__main">
+            <p class="statement" data-scrub>Ten years of backend work where mistakes are expensive: claims that must be caught before they're paid, patient records that must stay private, alarms that must arrive on time.</p>
+            <ol class="about__focus">
+              <li data-fade><span class="about__num">01</span><h3>Architecture &amp; APIs</h3><p>Backend architecture and API design in Node.js and PHP (Laravel, CodeIgniter), on MySQL, PostgreSQL and MongoDB.</p></li>
+              <li data-fade><span class="about__num">02</span><h3>After the merge</h3><p>I own what happens next: CI/CD pipelines, Docker, deployments on IIS and AWS, monitoring and data security.</p></li>
+              <li data-fade><span class="about__num">03</span><h3>Legacy &amp; leadership</h3><p>Teams bring me legacy code; I make it modular, tested and cheaper to run. I lead code reviews and mentor newer engineers.</p></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Experience: tabs ================= -->
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow"><span class="eyebrow__n">02</span>Experience</p>
+          <h2 class="section-title" id="experience-title" data-words>Where I've worked</h2>
+          <p class="section-head__intro" data-fade>Ten years at three Islamabad companies, from software engineer to leading backend development.</p>
+        </div>
+        <div class="xp">
+          <div class="xp__tabs" role="tablist" aria-label="Roles" id="xp-tabs">
+            <span class="xp__indicator" aria-hidden="true"></span>
+          </div>
+          <div class="xp__panel" role="tabpanel" id="xp-panel" tabindex="0"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Work ================= -->
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow"><span class="eyebrow__n">03</span>Work</p>
+          <h2 class="section-title" id="work-title" data-words>Selected work</h2>
+          <p class="section-head__intro" data-fade>Nine projects: four in depth, with how the pieces connect, and five more I shipped. Open any of them for the full case study.</p>
+        </div>
+        <!-- Sticky index of every project beside the case-study cards; rendered from scripts/data/projects.js -->
+        <div class="work__layout">
+          <nav class="work__index" aria-label="All projects" id="project-index"></nav>
+          <ol class="stack" id="feature-stack"></ol>
+        </div>
+
+        <h3 class="more__title" data-fade>Also shipped</h3>
+        <ul class="more" id="more-projects"></ul>
+      </div>
+    </section>
+
+    <!-- ================= Skills ================= -->
+    <section class="section skills" id="stack" aria-labelledby="stack-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow"><span class="eyebrow__n">04</span>Skills</p>
+          <h2 class="section-title" id="stack-title" data-words>Skills &amp; tools</h2>
+          <p class="section-head__intro" data-fade>The tools I use every week, grouped by what they're for.</p>
+        </div>
+        <!-- Compact skills panel: readout on the left, magnifying icon field on the right -->
+        <div class="tile skillbox">
+          <!-- Category tabs with a sliding gradient underline (buttons added by skills.js) -->
+          <div class="skilltabs" role="group" aria-label="Filter skills by area" id="skill-filters">
+            <span class="skilltabs__line" aria-hidden="true"></span>
+          </div>
+          <div class="skillbox__readout" aria-live="polite">
+            <p class="skillbox__group" id="sk-group">27 tools · 6 areas</p>
+            <p class="skillbox__name" id="sk-name">Pick a tool</p>
+            <p class="skillbox__note" id="sk-note">Point at an icon (or tap it) to see how I use it and which projects it went into.</p>
+            <div class="skillbox__used" id="sk-used" hidden>
+              <span>Used in</span>
+              <div class="skillbox__projects" id="sk-projects"></div>
+            </div>
+          </div>
+          <ul class="skillfield" id="skill-field" aria-label="Skills and tools"></ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= How I build: request pipeline ================= -->
+    <section class="section practice" id="practice" aria-labelledby="practice-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow"><span class="eyebrow__n">05</span>How I build</p>
+          <h2 class="section-title" id="practice-title" data-words>How I build</h2>
+          <p class="section-head__intro" data-fade>Follow one request through a backend I'd design, then see how the code is tested, shipped and watched. Pick any stage.</p>
+        </div>
+        <!-- Stages rendered from scripts/data/practice.js; a packet travels along the rail -->
+        <div class="tile pipeline" id="pipeline">
+          <div class="pipeline__track">
+            <span class="pipeline__rail" aria-hidden="true"><span class="pipeline__fill"></span></span>
+            <span class="pipeline__packet" aria-hidden="true"></span>
+            <ol class="pipeline__nodes" role="tablist" aria-label="Stages"></ol>
+          </div>
+          <div class="pipeline__detail" id="pipeline-detail" role="tabpanel" aria-live="polite">
+            <p class="pipeline__step"></p>
+            <h3 class="pipeline__title"></h3>
+            <p class="pipeline__text"></p>
+            <ul class="tags pipeline__tools"></ul>
+          </div>
+          <div class="pipeline__controls">
+            <span class="pipeline__timer" aria-hidden="true"><i></i></span>
+            <button class="pipeline__play" type="button" aria-pressed="true"><span>Pause</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= API ================= -->
+    <section class="section api" id="api" aria-labelledby="api-title">
+      <div class="container api__grid">
+        <div class="api__intro">
+          <div class="section-head section-head--flush">
+            <p class="eyebrow"><span class="eyebrow__n">06</span>API</p>
+            <h2 class="section-title" id="api-title" data-words>Query my API</h2>
+            <p class="section-head__intro" data-fade>I build APIs for a living, so this part of the page is one. Choose an endpoint and press Send.</p>
+          </div>
+          <div class="endpoints" role="tablist" aria-label="Endpoints">
+            <button role="tab" class="endpoint" data-endpoint="profile" aria-selected="true"><b>GET</b>/profile</button>
+            <button role="tab" class="endpoint" data-endpoint="stack" aria-selected="false"><b>GET</b>/stack</button>
+            <button role="tab" class="endpoint" data-endpoint="status" aria-selected="false"><b>GET</b>/status</button>
+            <button role="tab" class="endpoint" data-endpoint="awards" aria-selected="false"><b>GET</b>/awards</button>
+          </div>
+        </div>
+        <div class="console" id="api-console">
+          <div class="console__bar">
+            <span class="console__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <code class="console__path" id="console-path">GET /v1/engineers/arslan-gul</code>
+            <button class="console__send" id="console-send" type="button">Send</button>
+          </div>
+          <div class="console__meta" aria-live="polite">
+            <span class="console__code" id="console-code">200 OK</span>
+            <span id="console-time">38 ms</span>
+            <span id="console-size">412 B</span>
+          </div>
+          <pre class="console__body" tabindex="0"><code id="console-output"></code><span class="caret" aria-hidden="true"></span></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Recognition & education: tiles ================= -->
+    <section class="section honors" id="recognition" aria-labelledby="recognition-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow"><span class="eyebrow__n">07</span>Recognition</p>
+          <h2 class="section-title" id="recognition-title" data-words>Recognition</h2>
+          <p class="section-head__intro" data-fade>Two awards, two degrees and a tournament I help run.</p>
+        </div>
+        <div class="honors__grid" data-spotlight>
+          <article class="tile honor honor--award tilt">
+            <span class="honor__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /> <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /> <path d="M4 22h16" /> <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /> <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /> <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" /></svg></span>
+            <p class="honor__year">2019</p>
+            <h3>Most Valuable Player, Employee of the Year</h3>
+            <p>Zigron, Nov 2019. For my work on the DentaLens fraud-detection team.</p>
+          </article>
+          <article class="tile honor honor--award tilt">
+            <span class="honor__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /> <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /> <path d="M4 22h16" /> <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /> <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /> <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" /></svg></span>
+            <p class="honor__year">2019</p>
+            <h3>Employee of the Quarter II</h3>
+            <p>Zigron, May 2019. For outstanding performance in Q2.</p>
+          </article>
+          <article class="tile honor">
+            <span class="honor__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" /> <path d="M22 10v6" /> <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" /></svg></span>
+            <h3>Education &amp; training</h3>
+            <ul class="honor__list">
+              <li><strong>MS, Software Engineering</strong><span>Bahria University · 2018–2021</span></li>
+              <li><strong>BS, Software Engineering</strong><span>Bahria University · 2011–2015</span></li>
+              <li><strong>Workshops</strong><span>REST API test automation (2016) · Frontend frameworks, S&amp;P Global (2018)</span></li>
+            </ul>
+          </article>
+          <article class="tile honor">
+            <span class="honor__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /> <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66" /> <path d="m18 15-2-2" /> <path d="m15 18-2-2" /></svg></span>
+            <h3>Core organizer, Zigron Cricket Fiesta</h3>
+            <p>Since 2017, one of the largest IT-industry tournaments in Rawalpindi and Islamabad. I schedule matches and coordinate the teams.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Contact ================= -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="contact__intro">
+          <p class="eyebrow"><span class="eyebrow__n">08</span>Contact</p>
+          <h2 class="contact__title" id="contact-title" data-words>Need a backend that holds up? Let's talk.</h2>
+          <p class="contact__lede">A few lines about the project or role is plenty. I read every message myself.</p>
+          <div class="contact__links">
+            <a class="link-arrow" href="https://www.linkedin.com/in/arslangul93" target="_blank" rel="noopener">LinkedIn <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10v10" /> <path d="M7 17 17 7" /></svg></a>
+            <a class="link-arrow" href="assets/docs/M-Arslan-Gul-CV.pdf" download="M-Arslan-Gul-CV.pdf" data-cv title="ATS-friendly PDF">CV (PDF) <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /> <polyline points="7 10 12 15 17 10" /> <line x1="12" x2="12" y1="15" y2="3" /></svg></a>
+            <a class="link-arrow" href="assets/docs/M-Arslan-Gul-CV.docx" download="M-Arslan-Gul-CV.docx" data-cv title="ATS-friendly Word file">CV (Word) <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /> <polyline points="7 10 12 15 17 10" /> <line x1="12" x2="12" y1="15" y2="3" /></svg></a>
+          </div>
+        </div>
+
+        <div class="form-shell">
+          <form class="form" id="contact-form" novalidate>
+            <div class="form__hp" aria-hidden="true">
+              <label for="f-company">Company</label>
+              <input id="f-company" name="company" type="text" tabindex="-1" autocomplete="off">
+            </div>
+
+            <fieldset class="form__topics">
+              <legend>What's it about?</legend>
+              <label class="topic"><input type="radio" name="topic" value="Backend project" checked><span>Backend project</span></label>
+              <label class="topic"><input type="radio" name="topic" value="API integration"><span>API integration</span></label>
+              <label class="topic"><input type="radio" name="topic" value="AI feature"><span>AI feature</span></label>
+              <label class="topic"><input type="radio" name="topic" value="Full-time role"><span>Full-time role</span></label>
+              <label class="topic"><input type="radio" name="topic" value="Something else"><span>Something else</span></label>
+            </fieldset>
+
+            <div class="form__row">
+              <div class="field">
+                <input id="f-name" name="name" type="text" autocomplete="name" placeholder=" " required minlength="2">
+                <label for="f-name">Your name</label>
+                <p class="field__error" id="f-name-error"></p>
+              </div>
+              <div class="field">
+                <input id="f-email" name="email" type="email" autocomplete="email" placeholder=" " required>
+                <label for="f-email">Email address</label>
+                <p class="field__error" id="f-email-error"></p>
+              </div>
+            </div>
+            <div class="field">
+              <textarea id="f-message" name="message" rows="4" placeholder=" " required minlength="20" maxlength="1200"></textarea>
+              <label for="f-message">What are you working on?</label>
+              <p class="field__meta"><span class="field__error" id="f-message-error"></span><span class="field__count" id="f-count">0 / 1200</span></p>
+            </div>
+
+            <div class="form__foot">
+              <button class="send magnetic" type="submit" id="f-submit">
+                <span class="send__label">Send message</span>
+                <span class="send__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+              </button>
+              <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+            </div>
+
+            <div class="form__done" id="form-done" hidden>
+              <svg class="form__check" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24"/><path d="M15 27l7 7 15-15"/></svg>
+              <h3>Message sent</h3>
+              <p id="form-done-text">Thanks. I'll get back to you soon.</p>
+              <button class="link-arrow" type="button" id="form-again">Send another message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+
+      <!-- Closing call to action -->
+      <div class="footer__cta">
+        <p class="footer__headline">Have an API to build or a system that needs to <em>scale</em>?</p>
+        <div class="footer__actions">
+          <button class="footer__mail" type="button" data-copy-email="arslangul93@hotmail.com">
+            <span class="footer__mail-label">Email</span>
+            <span class="footer__mail-addr">arslangul93@hotmail.com</span>
+            <span class="footer__mail-hint" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg><span data-copy-hint>Copy</span></span>
+          </button>
+          <a class="btn btn--grad magnetic" href="#contact"><span>Start a conversation</span></a>
+        </div>
+      </div>
+
+      <!-- Link columns -->
+      <div class="footer__cols">
+        <div class="footer__brand">
+          <p class="footer__logo"><span class="footer__mark" aria-hidden="true">AG</span>M Arslan Gul</p>
+          <p class="footer__bio">Senior Software Engineer. Backends, APIs and integrations for healthcare, IoT and fraud detection.</p>
+          <div class="footer__status" aria-label="Writing production code since March 2016">
+            <span class="pulse" aria-hidden="true"></span>
+            <span class="footer__key">uptime</span>
+            <span class="footer__uptime" id="uptime" aria-hidden="true">10y 00m 00d 00:00:00</span>
+          </div>
+          <p class="footer__since">Writing production code since March 2016</p>
+        </div>
+
+        <nav class="footer__col" aria-label="Sections">
+          <p class="footer__heading">Sections</p>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#stack">Stack</a></li>
+            <li><a href="#practice">Practice</a></li>
+            <li><a href="#recognition">Recognition</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer__col" aria-label="Case studies">
+          <p class="footer__heading">Case studies</p>
+          <ul>
+            <li><a href="#case-credentialingpro">CredentialingPro</a></li>
+            <li><a href="#case-iylus-systems">IYLUS Systems</a></li>
+            <li><a href="#case-dr-iq">Dr. IQ</a></li>
+            <li><a href="#case-dentalens">DentaLens</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__col">
+          <p class="footer__heading">Elsewhere</p>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/arslangul93" target="_blank" rel="noopener">LinkedIn <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+            <li><a href="assets/docs/M-Arslan-Gul-CV.pdf" download="M-Arslan-Gul-CV.pdf" data-cv>CV (PDF) <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+            <li><a href="#contact">Contact form</a></li>
+            <li><button type="button" data-open-palette>Command menu <kbd>Ctrl K</kbd></button></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer__bar">
+        <p>© <span id="year">2026</span> M Arslan Gul</p>
+        <p class="footer__local">Islamabad, Pakistan · <time id="footer-time">--:--</time> PKT</p>
+        <a class="footer__top-btn" href="#top" aria-label="Back to top">Back to top <span aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg></span></a>
+      </div>
+    </div>
+    <p class="footer__name" aria-hidden="true" data-footer-name data-label="Arslan Gul">Arslan Gul</p>
+  </footer>
+
+  <!-- Accent theme picker (opened from the rail; swatches added by core/theme.js) -->
+  <div class="themes" id="theme-menu" role="group" aria-label="Colour theme" hidden>
+    <p class="themes__title">Colour theme</p>
+    <div class="themes__list" id="theme-list"></div>
+  </div>
+
+  <!-- Command palette (Ctrl/⌘ + K) -->
+  <dialog class="palette" id="palette" aria-label="Command menu">
+    <div class="palette__search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg>
+      <input id="palette-input" type="text" placeholder="Jump to a section, open a project, copy my email…" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="true" aria-controls="palette-list" aria-autocomplete="list">
+      <kbd>Esc</kbd>
+    </div>
+    <ul class="palette__list" id="palette-list" role="listbox"></ul>
+    <p class="palette__foot"><span><kbd>↑</kbd><kbd>↓</kbd> to move</span><span><kbd>Enter</kbd> to select</span></p>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Project case-study drawer -->
+  <dialog class="drawer" id="project-drawer" aria-labelledby="drawer-title">
+    <div class="drawer__inner">
+      <div class="drawer__top">
+        <p class="drawer__meta" id="drawer-meta"></p>
+        <button class="drawer__close" type="button" data-close>Close</button>
+      </div>
+      <h3 class="drawer__title" id="drawer-title"></h3>
+      <p class="drawer__summary" id="drawer-summary"></p>
+      <img class="drawer__img" id="drawer-img" src="assets/images/projects/credentialingpro.svg" alt="" width="1600" height="1000">
+      <dl class="drawer__metrics" id="drawer-metrics" hidden></dl>
+      <section class="drawer__block">
+        <h4>The challenge</h4>
+        <p id="drawer-challenge"></p>
+      </section>
+      <section class="drawer__block">
+        <div class="drawer__block-head">
+          <h4>How it fits together</h4>
+          <span class="drawer__hint">Simplified<span class="hover-only"> · hover a step</span></span>
+        </div>
+        <div class="flow" id="drawer-flow"></div>
+      </section>
+      <section class="drawer__block">
+        <h4>What I did</h4>
+        <ul class="drawer__points" id="drawer-points"></ul>
+      </section>
+      <section class="drawer__block drawer__outcome">
+        <h4>Outcome</h4>
+        <p id="drawer-outcome"></p>
+      </section>
+      <ul class="tags" id="drawer-tags"></ul>
+      <nav class="drawer__pager" aria-label="More projects">
+        <button type="button" class="drawer__nav" data-step="-1"><span>Previous</span><b id="drawer-prev"></b></button>
+        <button type="button" class="drawer__nav drawer__nav--next" data-step="1"><span>Next</span><b id="drawer-next"></b></button>
+      </nav>
+    </div>
+  </dialog>
+</body>
+</html>
