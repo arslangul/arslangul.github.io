@@ -1,0 +1,1478 @@
+{
+  "_readme": "All site content lives here. Edit text, add projects, skills or roles, then reload the page. Icons are inner SVG markup (24x24, Lucide style). In text, {projects}/{Total}/{featured}/{more} are filled in from the project list.",
+  "meta": {
+    "title": "M Arslan Gul",
+    "description": "M Arslan Gul, Senior Software Engineer in Islamabad. Backend systems, REST APIs, CI/CD and AI features for healthcare, IoT and fraud-detection platforms.",
+    "ogTitle": "M Arslan Gul, Senior Software Engineer",
+    "ogDescription": "10+ years building Node.js and PHP backends, REST APIs and AI-powered features.",
+    "ogImage": "assets/images/og-image.jpg",
+    "knowsAbout": [
+      "Node.js",
+      "PHP",
+      "Laravel",
+      "REST API design",
+      "Microservices",
+      "Redis",
+      "Docker",
+      "CI/CD",
+      "OpenAI API",
+      "Elasticsearch",
+      "AWS"
+    ]
+  },
+  "profile": {
+    "name": "M Arslan Gul",
+    "fullName": "Muhammad Arslan Gul",
+    "displayName": "Arslan Gul",
+    "initials": "AG",
+    "role": "Senior Software Engineer",
+    "company": "Naviquis",
+    "city": "Islamabad",
+    "country": "Pakistan",
+    "countryCode": "PK",
+    "timezone": "Asia/Karachi",
+    "timezoneLabel": "PKT",
+    "careerStart": "2016-03",
+    "university": "Bahria University",
+    "email": "arslangul93@hotmail.com",
+    "phone": "+92 323 3439302",
+    "linkedin": "https://www.linkedin.com/in/arslangul93",
+    "portrait": "assets/images/profile.webp",
+    "cv": {
+      "pdf": "assets/docs/M-Arslan-Gul-CV.pdf",
+      "docx": "assets/docs/M-Arslan-Gul-CV.docx"
+    }
+  },
+  "nav": [
+    {
+      "id": "about",
+      "label": "About",
+      "icon": "<circle cx=\"12\" cy=\"8\" r=\"5\" /><path d=\"M20 21a8 8 0 0 0-16 0\" />"
+    },
+    {
+      "id": "experience",
+      "label": "Experience",
+      "icon": "<path d=\"M12 12h.01\" /><path d=\"M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2\" /><path d=\"M22 13a18.15 18.15 0 0 1-20 0\" /><rect width=\"20\" height=\"14\" x=\"2\" y=\"6\" rx=\"2\" />"
+    },
+    {
+      "id": "work",
+      "label": "Work",
+      "icon": "<path d=\"m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z\" /><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\" /><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\" />"
+    },
+    {
+      "id": "stack",
+      "label": "Skills",
+      "icon": "<rect width=\"16\" height=\"16\" x=\"4\" y=\"4\" rx=\"2\" /><rect width=\"6\" height=\"6\" x=\"9\" y=\"9\" rx=\"1\" /><path d=\"M15 2v2\" /><path d=\"M15 20v2\" /><path d=\"M2 15h2\" /><path d=\"M2 9h2\" /><path d=\"M20 15h2\" /><path d=\"M20 9h2\" /><path d=\"M9 2v2\" /><path d=\"M9 20v2\" />"
+    },
+    {
+      "id": "practice",
+      "label": "How I build",
+      "icon": "<rect width=\"8\" height=\"8\" x=\"3\" y=\"3\" rx=\"2\" /><path d=\"M7 11v4a2 2 0 0 0 2 2h4\" /><rect width=\"8\" height=\"8\" x=\"13\" y=\"13\" rx=\"2\" />"
+    },
+    {
+      "id": "api",
+      "label": "API",
+      "icon": "<polyline points=\"4 17 10 11 4 5\" /><line x1=\"12\" x2=\"20\" y1=\"19\" y2=\"19\" />"
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "icon": "<rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\" /><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\" />"
+    }
+  ],
+  "hero": {
+    "lede": "Backends for healthcare, IoT and fraud detection: APIs that stay fast, secure and easy to change.",
+    "primaryAction": {
+      "label": "View work",
+      "href": "#work"
+    },
+    "cvAction": "Download CV",
+    "facts": [
+      {
+        "label": "Experience",
+        "number": 10,
+        "suffix": "+",
+        "text": "years"
+      },
+      {
+        "label": "Shipped",
+        "number": "{projects}",
+        "text": "platforms"
+      },
+      {
+        "label": "Now",
+        "text": "AI features & search at Naviquis"
+      }
+    ],
+    "portraitHint": "Hover for colour"
+  },
+  "marquee": [
+    "Node.js",
+    "Express",
+    "Laravel",
+    "REST APIs",
+    "Microservices",
+    "OpenAI API",
+    "Elasticsearch",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "Docker",
+    "CI/CD",
+    "AWS",
+    "IIS"
+  ],
+  "about": {
+    "heading": "About",
+    "facts": [
+      {
+        "label": "Now",
+        "value": "Senior Software Engineer, Naviquis"
+      },
+      {
+        "label": "Based in",
+        "value": "Islamabad, Pakistan"
+      },
+      {
+        "label": "Experience",
+        "value": "10+ years in backend"
+      },
+      {
+        "label": "Domains",
+        "value": "Healthcare, IoT, fraud detection"
+      },
+      {
+        "label": "Outside work",
+        "value": "Helping run the Zigron Cricket Fiesta since 2017"
+      }
+    ],
+    "statement": "Ten years of backend work where mistakes are expensive: claims that must be caught before they're paid, patient records that must stay private, alarms that must arrive on time.",
+    "focus": [
+      {
+        "title": "Architecture & APIs",
+        "text": "Backend architecture and API design in Node.js and PHP (Laravel, CodeIgniter), on MySQL, PostgreSQL and MongoDB."
+      },
+      {
+        "title": "After the merge",
+        "text": "I own what happens next: CI/CD pipelines, Docker, deployments on IIS and AWS, monitoring and data security."
+      },
+      {
+        "title": "Legacy & leadership",
+        "text": "Teams bring me legacy code; I make it modular, tested and cheaper to run. I lead code reviews and mentor newer engineers."
+      }
+    ]
+  },
+  "experience": {
+    "heading": "Experience",
+    "title": "Where I've worked",
+    "intro": "Ten years at three Islamabad companies, from software engineer to leading backend development.",
+    "roles": [
+      {
+        "id": "naviquis",
+        "company": "Naviquis",
+        "role": "Senior Software Engineer",
+        "period": "Jul 2023 – Present",
+        "years": "2023 — now",
+        "location": "Islamabad",
+        "points": [
+          "Take AI features from proof of concept to production with the OpenAI API and third-party services.",
+          "Architect backend APIs and business logic across several concurrent projects.",
+          "Added Elasticsearch for faster search, and data-security controls for sensitive records.",
+          "Run production on IIS (app pools, bindings, SSL) and lead code reviews and test coverage."
+        ],
+        "stack": [
+          "OpenAI API",
+          "Elasticsearch",
+          "IIS",
+          "Node.js",
+          "PHP"
+        ]
+      },
+      {
+        "id": "zigron-senior",
+        "company": "Zigron",
+        "role": "Senior Software Engineer",
+        "period": "Jun 2022 – Jul 2023",
+        "years": "2022 — 2023",
+        "location": "Islamabad",
+        "points": [
+          "Led backend development for IYLUS, an IoT home-security platform: cameras, smart doorbell, alarm alerts and 24/7 monitoring.",
+          "Modernized and modularized legacy codebases, lowering operating costs.",
+          "Shipped web apps in Node.js and PHP over REST, and fixed hard production issues under tight deadlines."
+        ],
+        "stack": [
+          "Node.js",
+          "PHP",
+          "MySQL",
+          "MongoDB",
+          "REST"
+        ]
+      },
+      {
+        "id": "at-tech",
+        "company": "AT Tech",
+        "role": "Software Engineer (PHP)",
+        "period": "Oct 2021 – May 2022",
+        "years": "2021 — 2022",
+        "location": "Islamabad",
+        "points": [
+          "Built server-side modules for Dr. IQ, an NHS online-consultation app, on PHP microservices.",
+          "Configured and deployed REST APIs and integrated third-party services.",
+          "Wrote technical specifications with project managers before building."
+        ],
+        "stack": [
+          "PHP",
+          "Microservices",
+          "MySQL",
+          "JavaScript"
+        ]
+      },
+      {
+        "id": "zigron",
+        "company": "Zigron",
+        "role": "Software Engineer",
+        "period": "Mar 2016 – Sep 2021",
+        "years": "2016 — 2021",
+        "location": "Islamabad",
+        "points": [
+          "Designed scalable fraud, waste and abuse detection modules for the DentaLens claims platform.",
+          "Led code reviews, guided peers on best practices and modernized legacy code.",
+          "Named Most Valuable Player / Employee of the Year and Employee of the Quarter in 2019."
+        ],
+        "stack": [
+          "MySQL",
+          "PHP",
+          "Selenium",
+          "Fraud detection"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "heading": "Work",
+    "title": "Selected work",
+    "intro": "{Total} projects: {featured} in depth, with how the pieces connect, and {more} more I shipped. Open any of them for the full case study.",
+    "moreTitle": "Also shipped",
+    "projects": [
+      {
+        "featured": true,
+        "id": "credentialingpro",
+        "title": "CredentialingPro",
+        "period": "Jul 2023 – Present",
+        "company": "Naviquis",
+        "category": "healthcare",
+        "image": "assets/images/projects/credentialingpro.svg",
+        "summary": "One system that takes healthcare providers from application to credentialed, verified and paid.",
+        "challenge": "Before a healthcare provider can be paid, they have to be credentialed, onboarded and have their documents verified. Spread across separate steps, that process is slow and paperwork-heavy.",
+        "approach": [
+          "Designed backend APIs and business logic covering onboarding, credentialing and claims.",
+          "Built document verification into the same workflow instead of a separate manual step.",
+          "Applied data-security controls to protect sensitive provider and patient records."
+        ],
+        "outcome": "A single platform that takes a provider from application to verified credentials and processed claims.",
+        "metrics": [],
+        "flow": {
+          "columns": [
+            [
+              {
+                "id": "p",
+                "label": "Provider\nportal"
+              }
+            ],
+            [
+              {
+                "id": "api",
+                "label": "Credentialing\nAPI"
+              }
+            ],
+            [
+              {
+                "id": "doc",
+                "label": "Document\nverification"
+              },
+              {
+                "id": "claims",
+                "label": "Claims\nprocessing"
+              }
+            ],
+            [
+              {
+                "id": "db",
+                "label": "Secure\ndatabase"
+              }
+            ]
+          ],
+          "edges": [
+            [
+              "p",
+              "api"
+            ],
+            [
+              "api",
+              "doc"
+            ],
+            [
+              "api",
+              "claims"
+            ],
+            [
+              "doc",
+              "db"
+            ],
+            [
+              "claims",
+              "db"
+            ]
+          ]
+        },
+        "tags": [
+          "Backend APIs",
+          "Healthcare",
+          "Claims",
+          "Data security"
+        ]
+      },
+      {
+        "featured": false,
+        "id": "portal-applet",
+        "title": "Portal Applet",
+        "period": "Feb 2024 – Present",
+        "company": "Naviquis",
+        "category": "automation",
+        "image": "assets/images/projects/portal-applet.svg",
+        "summary": "Pulls data out of PDF documents automatically, so nobody has to re-type it.",
+        "challenge": "Important data arrived locked inside PDF documents, and someone had to read and re-type it by hand.",
+        "approach": [
+          "Built a pipeline that ingests PDF documents and extracts their data automatically.",
+          "Turned extracted content into structured records other systems can use."
+        ],
+        "outcome": "Data that used to be keyed in manually now flows from documents into business systems on its own.",
+        "metrics": [],
+        "flow": {
+          "columns": [
+            [
+              {
+                "id": "pdf",
+                "label": "PDF\ndocuments"
+              }
+            ],
+            [
+              {
+                "id": "ingest",
+                "label": "Upload &\nqueue"
+              }
+            ],
+            [
+              {
+                "id": "extract",
+                "label": "Data\nextraction"
+              }
+            ],
+            [
+              {
+                "id": "records",
+                "label": "Structured\nrecords"
+              }
+            ],
+            [
+              {
+                "id": "systems",
+                "label": "Business\nsystems"
+              }
+            ]
+          ],
+          "edges": [
+            [
+              "pdf",
+              "ingest"
+            ],
+            [
+              "ingest",
+              "extract"
+            ],
+            [
+              "extract",
+              "records"
+            ],
+            [
+              "records",
+              "systems"
+            ]
+          ]
+        },
+        "tags": [
+          "PDF extraction",
+          "Automation",
+          "Backend APIs"
+        ]
+      },
+      {
+        "featured": false,
+        "id": "gamify-pro",
+        "title": "Gamify Pro",
+        "period": "Feb 2024 – Present",
+        "company": "Naviquis",
+        "category": "automation",
+        "image": "assets/images/projects/gamify-pro.svg",
+        "summary": "A rewards engine that pays out cash and non-cash rewards when challenges are completed.",
+        "challenge": "Rewarding people for completing challenges means tracking progress fairly and paying out different kinds of rewards reliably.",
+        "approach": [
+          "Built the engine that defines challenges and tracks when they are completed.",
+          "Implemented distribution of both monetary and non-monetary rewards."
+        ],
+        "outcome": "A reusable rewards engine where completed challenges trigger the right reward automatically.",
+        "metrics": [],
+        "flow": {
+          "columns": [
+            [
+              {
+                "id": "users",
+                "label": "Participants"
+              }
+            ],
+            [
+              {
+                "id": "engine",
+                "label": "Challenge\nengine"
+              }
+            ],
+            [
+              {
+                "id": "track",
+                "label": "Completion\ntracking"
+              }
+            ],
+            [
+              {
+                "id": "money",
+                "label": "Monetary\nrewards"
+              },
+              {
+                "id": "perks",
+                "label": "Non-monetary\nrewards"
+              }
+            ]
+          ],
+          "edges": [
+            [
+              "users",
+              "engine"
+            ],
+            [
+              "engine",
+              "track"
+            ],
+            [
+              "track",
+              "money"
+            ],
+            [
+              "track",
+              "perks"
+            ]
+          ]
+        },
+        "tags": [
+          "Rewards engine",
+          "Gamification",
+          "Backend APIs"
+        ]
+      },
+      {
+        "featured": false,
+        "id": "activexchange",
+        "title": "ActiveXchange",
+        "period": "2024 – Present",
+        "company": "Naviquis",
+        "category": "automation",
+        "image": "assets/images/projects/activexchange.svg",
+        "summary": "Send, receive and manage faxes from the browser instead of a machine.",
+        "challenge": "Many healthcare and business workflows still run on fax, which means paper, machines and lost pages.",
+        "approach": [
+          "Built a web application to send and receive faxes from the browser.",
+          "Added tools to manage, organize and find faxes in one place."
+        ],
+        "outcome": "Fax becomes an inbox: sent, received and stored digitally instead of on paper.",
+        "metrics": [],
+        "flow": {
+          "columns": [
+            [
+              {
+                "id": "in",
+                "label": "Incoming\nfaxes"
+              },
+              {
+                "id": "out",
+                "label": "Outgoing\nfaxes"
+              }
+            ],
+            [
+              {
+                "id": "app",
+                "label": "Fax web\napplication"
+              }
+            ],
+            [
+              {
+                "id": "inbox",
+                "label": "Digital inbox\n& archive"
+              }
+            ]
+          ],
+          "edges": [
+            [
+              "in",
+              "app"
+            ],
+            [
+              "out",
+              "app"
+            ],
+            [
+              "app",
+              "inbox"
+            ]
+          ]
+        },
+        "tags": [
+          "Digital fax",
+          "Web app",
+          "Backend APIs"
+        ]
+      },
+      {
+        "featured": true,
+        "id": "iylus-systems",
+        "title": "IYLUS Systems",
+        "period": "Jun 2022 – Jul 2023",
+        "company": "Zigron",
+        "category": "iot",
+        "image": "assets/images/projects/iylus-systems.svg",
+        "summary": "Home security that ties cameras, a smart doorbell and alarms to 24/7 monitoring and mobile apps.",
+        "challenge": "A home-security platform has to take events from many devices, raise alerts quickly and keep monitoring running around the clock.",
+        "approach": [
+          "Led backend development as Senior Software Engineer.",
+          "Built the Node.js backend behind indoor and outdoor cameras, a smart doorbell and alarm-based alerts.",
+          "Used MySQL and MongoDB for platform and device data, serving a 24/7 dashboard and Android and iOS apps.",
+          "Modernized and modularized legacy code to cut operating costs."
+        ],
+        "outcome": "One backend serving devices, a round-the-clock monitoring dashboard and mobile apps.",
+        "metrics": [],
+        "flow": {
+          "columns": [
+            [
+              {
+                "id": "cam",
+                "label": "Cameras"
+              },
+              {
+                "id": "bell",
+                "label": "Doorbell"
+              },
+              {
+                "id": "alarm",
+                "label": "Alarms"
+              }
+            ],
+            [
+              {
+                "id": "node",
+                "label": "Node.js\nbackend"
+              }
+            ],
+            [
+              {
+                "id": "mysql",
+                "label": "MySQL"
+              },
+              {
+                "id": "mongo",
+                "label": "MongoDB"
+              }
+            ],
+            [
+              {
+                "id": "dash",
+                "label": "24/7\ndashboard"
+              },
+              {
+                "id": "apps",
+                "label": "Android &\niOS apps"
+              }
+            ]
+          ],
+          "edges": [
+            [
+              "cam",
+              "node"
+            ],
+            [
+              "bell",
+              "node"
+            ],
+            [
+              "alarm",
+              "node"
+            ],
+            [
+              "node",
+              "mysql"
+            ],
+            [
+              "node",
+              "mongo"
+            ],
+            [
+              "mysql",
+              "dash"
+            ],
+            [
+              "mongo",
+              "apps"
+            ]
+          ]
+        },
+        "tags": [
+          "Node.js",
+          "MySQL",
+          "MongoDB",
+          "Android",
+          "iOS"
+        ]
+      },
+      {
+        "featured": true,
+        "id": "dr-iq",
+        "title": "Dr. IQ",
+        "period": "Oct 2021 – May 2022",
+        "company": "AT Tech",
+        "category": "healthcare",
+        "image": "assets/images/projects/dr-iq.svg",
+        "summary": "A free NHS patient app for online GP visits, medical records and repeat prescriptions.",
+        "challenge": "NHS patients needed to see a GP online, access their medical records securely and reorder prescriptions without visiting a surgery.",
+        "approach": [
+          "Built new server-side modules in PHP on a microservices architecture.",
+          "Configured REST APIs and integrated third-party APIs to extend the platform.",
+          "Turned requirements into technical specifications with project managers."
+        ],
+        "outcome": "New consultation, record and prescription features delivered on the existing microservices platform.",
+        "metrics": [],
+        "flow": {
+          "columns": [
+            [
+              {
+                "id": "patient",
+                "label": "Patient\napp"
+              }
+            ],
+            [
+              {
+                "id": "rest",
+                "label": "REST APIs"
+              }
+            ],
+            [
+              {
+                "id": "consult",
+                "label": "GP\nconsultations"
+              },
+              {
+                "id": "records",
+                "label": "Medical\nrecords"
+              },
+              {
+                "id": "rx",
+                "label": "Repeat\nprescriptions"
+              }
+            ],
+            [
+              {
+                "id": "mysql",
+                "label": "MySQL"
+              },
+              {
+                "id": "third",
+                "label": "Third-party\nAPIs"
+              }
+            ]
+          ],
+          "edges": [
+            [
+              "patient",
+              "rest"
+            ],
+            [
+              "rest",
+              "consult"
+            ],
+            [
+              "rest",
+              "records"
+            ],
+            [
+              "rest",
+              "rx"
+            ],
+            [
+              "consult",
+              "third"
+            ],
+            [
+              "records",
+              "mysql"
+            ],
+            [
+              "rx",
+              "mysql"
+            ]
+          ]
+        },
+        "tags": [
+          "PHP",
+          "Microservices",
+          "REST APIs",
+          "MySQL"
+        ]
+      },
+      {
+        "featured": true,
+        "id": "dentalens",
+        "title": "DentaLens",
+        "period": "Mar 2017 – Sep 2021",
+        "company": "Zigron",
+        "category": "data",
+        "image": "assets/images/projects/dentalens.svg",
+        "summary": "A claims engine that spots fraud, waste and abuse in near real time, before money goes out.",
+        "challenge": "Fraudulent or wasteful dental and medical claims are expensive once paid, so they need to be caught while claims are processed, not afterwards.",
+        "approach": [
+          "Designed and built scalable modules for fraud, waste and abuse detection.",
+          "Worked on automated claims processing for dental and medical professionals.",
+          "Led code reviews and kept the team on current best practices."
+        ],
+        "outcome": "Claims screened in near real time. The work earned Most Valuable Player / Employee of the Year 2019.",
+        "metrics": [],
+        "flow": {
+          "columns": [
+            [
+              {
+                "id": "claims",
+                "label": "Dental &\nmedical claims"
+              }
+            ],
+            [
+              {
+                "id": "engine",
+                "label": "Claims\nprocessing"
+              }
+            ],
+            [
+              {
+                "id": "fwa",
+                "label": "Fraud, waste &\nabuse detection"
+              }
+            ],
+            [
+              {
+                "id": "flag",
+                "label": "Flagged for\nreview"
+              },
+              {
+                "id": "ok",
+                "label": "Cleared\nclaims"
+              }
+            ]
+          ],
+          "edges": [
+            [
+              "claims",
+              "engine"
+            ],
+            [
+              "engine",
+              "fwa"
+            ],
+            [
+              "fwa",
+              "flag"
+            ],
+            [
+              "fwa",
+              "ok"
+            ]
+          ]
+        },
+        "tags": [
+          "Fraud detection",
+          "Healthcare claims",
+          "Scalable modules"
+        ]
+      },
+      {
+        "featured": false,
+        "id": "fraudlens",
+        "title": "FraudLens",
+        "period": "Sep 2016 – Mar 2017",
+        "company": "Zigron",
+        "category": "data",
+        "image": "assets/images/projects/fraudlens.svg",
+        "summary": "Analytics algorithms moved into MySQL stored procedures to process data faster.",
+        "challenge": "Analytics over large datasets was slow when the data had to leave the database to be processed.",
+        "approach": [
+          "Wrote data analytics algorithms as MySQL stored procedures.",
+          "Kept processing close to the data to improve efficiency."
+        ],
+        "outcome": "More efficient data processing for the analytics engine.",
+        "metrics": [],
+        "flow": {
+          "columns": [
+            [
+              {
+                "id": "data",
+                "label": "Source\ndata"
+              }
+            ],
+            [
+              {
+                "id": "sp",
+                "label": "MySQL stored\nprocedures"
+              }
+            ],
+            [
+              {
+                "id": "out",
+                "label": "Analytics\nresults"
+              }
+            ]
+          ],
+          "edges": [
+            [
+              "data",
+              "sp"
+            ],
+            [
+              "sp",
+              "out"
+            ]
+          ]
+        },
+        "tags": [
+          "MySQL",
+          "Stored procedures",
+          "Analytics"
+        ]
+      },
+      {
+        "featured": false,
+        "id": "genband",
+        "title": "Genband",
+        "period": "Feb 2016 – Sep 2016",
+        "company": "Zigron",
+        "category": "data",
+        "image": "assets/images/projects/genband.svg",
+        "summary": "Test design, end-to-end and regression testing, automated with Selenium.",
+        "challenge": "Releases needed reliable end-to-end and regression coverage without slow manual retesting.",
+        "approach": [
+          "Designed test cases and ran end-to-end and regression testing.",
+          "Automated functional and non-functional tests with Selenium."
+        ],
+        "outcome": "Repeatable automated coverage for every release.",
+        "metrics": [],
+        "flow": {
+          "columns": [
+            [
+              {
+                "id": "cases",
+                "label": "Test case\ndesign"
+              }
+            ],
+            [
+              {
+                "id": "sel",
+                "label": "Selenium\nautomation"
+              }
+            ],
+            [
+              {
+                "id": "e2e",
+                "label": "End-to-end\ntests"
+              },
+              {
+                "id": "reg",
+                "label": "Regression\ntests"
+              }
+            ]
+          ],
+          "edges": [
+            [
+              "cases",
+              "sel"
+            ],
+            [
+              "sel",
+              "e2e"
+            ],
+            [
+              "sel",
+              "reg"
+            ]
+          ]
+        },
+        "tags": [
+          "QA",
+          "Selenium",
+          "Test automation"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Skills",
+    "title": "Skills & tools",
+    "intro": "The tools I use every week, grouped by what they're for.",
+    "readout": {
+      "name": "Pick a tool",
+      "note": "Point at an icon (or tap it) to see how I use it and which projects it went into."
+    },
+    "groups": {
+      "backend": "Backend",
+      "data": "Data",
+      "architecture": "Architecture",
+      "ai": "AI & integrations",
+      "infra": "Infrastructure",
+      "frontend": "Frontend"
+    },
+    "aliases": {
+      "REST API design": [
+        "REST APIs"
+      ]
+    },
+    "items": [
+      {
+        "name": "Node.js",
+        "group": "backend",
+        "note": "My main runtime for APIs and real-time services.",
+        "icon": "<rect width=\"20\" height=\"8\" x=\"2\" y=\"2\" rx=\"2\" ry=\"2\" /> <rect width=\"20\" height=\"8\" x=\"2\" y=\"14\" rx=\"2\" ry=\"2\" /> <line x1=\"6\" x2=\"6.01\" y1=\"6\" y2=\"6\" /> <line x1=\"6\" x2=\"6.01\" y1=\"18\" y2=\"18\" />"
+      },
+      {
+        "name": "Express.js",
+        "group": "backend",
+        "note": "REST APIs, middleware and routing.",
+        "icon": "<circle cx=\"6\" cy=\"19\" r=\"3\" /> <path d=\"M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15\" /> <circle cx=\"18\" cy=\"5\" r=\"3\" />"
+      },
+      {
+        "name": "Socket.io",
+        "group": "backend",
+        "note": "Real-time, event-driven features.",
+        "icon": "<path d=\"M4.9 19.1C1 15.2 1 8.8 4.9 4.9\" /> <path d=\"M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5\" /> <circle cx=\"12\" cy=\"12\" r=\"2\" /> <path d=\"M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5\" /> <path d=\"M19.1 4.9C23 8.8 23 15.1 19.1 19\" />"
+      },
+      {
+        "name": "PHP",
+        "group": "backend",
+        "note": "Healthcare platforms since 2016.",
+        "icon": "<path d=\"m18 16 4-4-4-4\" /> <path d=\"m6 8-4 4 4 4\" /> <path d=\"m14.5 4-5 16\" />"
+      },
+      {
+        "name": "Laravel",
+        "group": "backend",
+        "note": "Modern PHP services and APIs.",
+        "icon": "<path d=\"m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z\" /> <path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\" /> <path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\" />"
+      },
+      {
+        "name": "CodeIgniter",
+        "group": "backend",
+        "note": "Legacy apps I've modernized.",
+        "icon": "<path d=\"M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1\" /> <path d=\"M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1\" />"
+      },
+      {
+        "name": "MySQL",
+        "group": "data",
+        "note": "Stored procedures, indexing and query tuning.",
+        "icon": "<ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\" /> <path d=\"M3 5V19A9 3 0 0 0 21 19V5\" /> <path d=\"M3 12A9 3 0 0 0 21 12\" />"
+      },
+      {
+        "name": "PostgreSQL",
+        "group": "data",
+        "note": "Relational data for production apps.",
+        "icon": "<ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\" /> <path d=\"M3 5V19A9 3 0 0 0 21 19V5\" /> <path d=\"M3 12A9 3 0 0 0 21 12\" />"
+      },
+      {
+        "name": "SQL Server",
+        "group": "data",
+        "note": "Enterprise data on Windows stacks.",
+        "icon": "<ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\" /> <path d=\"M3 5V19A9 3 0 0 0 15 21.84\" /> <path d=\"M21 5V8\" /> <path d=\"M21 12L18 17H22L19 22\" /> <path d=\"M3 12A9 3 0 0 0 14.59 14.87\" />"
+      },
+      {
+        "name": "SQLite",
+        "group": "data",
+        "note": "Lightweight embedded storage.",
+        "icon": "<line x1=\"22\" x2=\"2\" y1=\"12\" y2=\"12\" /> <path d=\"M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z\" /> <line x1=\"6\" x2=\"6.01\" y1=\"16\" y2=\"16\" /> <line x1=\"10\" x2=\"10.01\" y1=\"16\" y2=\"16\" />"
+      },
+      {
+        "name": "MongoDB",
+        "group": "data",
+        "note": "Device and event data on IYLUS.",
+        "icon": "<path d=\"M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4\" /> <path d=\"M14 2v4a2 2 0 0 0 2 2h4\" /> <path d=\"M4 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1\" /> <path d=\"M8 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1\" />"
+      },
+      {
+        "name": "Redis",
+        "group": "data",
+        "note": "Caching hot reads and sessions.",
+        "icon": "<path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\" />"
+      },
+      {
+        "name": "Elasticsearch",
+        "group": "data",
+        "note": "Faster search at Naviquis.",
+        "icon": "<circle cx=\"11\" cy=\"11\" r=\"8\" /> <path d=\"m21 21-4.3-4.3\" />"
+      },
+      {
+        "name": "Microservices",
+        "group": "architecture",
+        "note": "Healthcare platform built as services.",
+        "icon": "<path d=\"M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z\" /> <path d=\"m7 16.5-4.74-2.85\" /> <path d=\"m7 16.5 5-3\" /> <path d=\"M7 16.5v5.17\" /> <path d=\"M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z\" /> <path d=\"m17 16.5-5-3\" /> <path d=\"m17 16.5 4.74-2.85\" /> <path d=\"M17 16.5v5.17\" /> <path d=\"M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z\" /> <path d=\"M12 8 7.26 5.15\" /> <path d=\"m12 8 4.74-2.85\" /> <path d=\"M12 13.5V8\" />"
+      },
+      {
+        "name": "SOA",
+        "group": "architecture",
+        "note": "Service-oriented system design.",
+        "icon": "<rect x=\"16\" y=\"16\" width=\"6\" height=\"6\" rx=\"1\" /> <rect x=\"2\" y=\"16\" width=\"6\" height=\"6\" rx=\"1\" /> <rect x=\"9\" y=\"2\" width=\"6\" height=\"6\" rx=\"1\" /> <path d=\"M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3\" /> <path d=\"M12 12V8\" />"
+      },
+      {
+        "name": "REST API design",
+        "group": "architecture",
+        "note": "Clean, versioned API contracts.",
+        "icon": "<path d=\"M8 3 4 7l4 4\" /> <path d=\"M4 7h16\" /> <path d=\"m16 21 4-4-4-4\" /> <path d=\"M20 17H4\" />"
+      },
+      {
+        "name": "JWT / OAuth",
+        "group": "architecture",
+        "note": "Token auth, OAuth sign-in and role-based access.",
+        "icon": "<path d=\"M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z\" /> <circle cx=\"16.5\" cy=\"7.5\" r=\".5\" fill=\"currentColor\" />"
+      },
+      {
+        "name": "Queues & jobs",
+        "group": "architecture",
+        "note": "Background workers for slow tasks.",
+        "icon": "<path d=\"m3 17 2 2 4-4\" /> <path d=\"m3 7 2 2 4-4\" /> <path d=\"M13 6h8\" /> <path d=\"M13 12h8\" /> <path d=\"M13 18h8\" />"
+      },
+      {
+        "name": "Automated testing",
+        "group": "architecture",
+        "note": "Unit and integration tests on every change.",
+        "icon": "<path d=\"M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2\" /> <path d=\"M8.5 2h7\" /> <path d=\"M7 16h10\" />"
+      },
+      {
+        "name": "Agile / Scrum",
+        "group": "architecture",
+        "note": "How my teams ship.",
+        "icon": "<rect width=\"8\" height=\"8\" x=\"3\" y=\"3\" rx=\"2\" /> <path d=\"M7 11v4a2 2 0 0 0 2 2h4\" /> <rect width=\"8\" height=\"8\" x=\"13\" y=\"13\" rx=\"2\" />"
+      },
+      {
+        "name": "OpenAI API",
+        "group": "ai",
+        "note": "AI features from prototype to production.",
+        "icon": "<path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\" /> <path d=\"M20 3v4\" /> <path d=\"M22 5h-4\" /> <path d=\"M4 17v2\" /> <path d=\"M5 18H3\" />"
+      },
+      {
+        "name": "Third-party APIs",
+        "group": "ai",
+        "note": "Extending platforms with external services.",
+        "icon": "<path d=\"M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Z\" /> <path d=\"m2 22 3-3\" /> <path d=\"M7.5 13.5 10 11\" /> <path d=\"M10.5 16.5 13 14\" /> <path d=\"m18 3-4 4h6l-4 4\" />"
+      },
+      {
+        "name": "SAP Marketing Cloud",
+        "group": "ai",
+        "note": "CRM integration work.",
+        "icon": "<path d=\"M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z\" /> <path d=\"M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2\" /> <path d=\"M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2\" /> <path d=\"M10 6h4\" /> <path d=\"M10 10h4\" /> <path d=\"M10 14h4\" /> <path d=\"M10 18h4\" />"
+      },
+      {
+        "name": "Zoho CRM",
+        "group": "ai",
+        "note": "CRM integration work.",
+        "icon": "<path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\" /> <circle cx=\"9\" cy=\"7\" r=\"4\" /> <path d=\"M22 21v-2a4 4 0 0 0-3-3.87\" /> <path d=\"M16 3.13a4 4 0 0 1 0 7.75\" />"
+      },
+      {
+        "name": "AWS",
+        "group": "infra",
+        "note": "Cloud hosting and infrastructure.",
+        "icon": "<path d=\"M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z\" />"
+      },
+      {
+        "name": "IIS",
+        "group": "infra",
+        "note": "App pools, bindings and SSL in production.",
+        "icon": "<circle cx=\"12\" cy=\"12\" r=\"3\" /> <path d=\"M4.5 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-.5\" /> <path d=\"M4.5 14H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-.5\" /> <path d=\"M6 6h.01\" /> <path d=\"M6 18h.01\" /> <path d=\"m15.7 13.4-.9-.3\" /> <path d=\"m9.2 10.9-.9-.3\" /> <path d=\"m10.6 15.7.3-.9\" /> <path d=\"m13.6 15.7-.4-1\" /> <path d=\"m10.8 9.3-.4-1\" /> <path d=\"m8.3 13.6 1-.4\" /> <path d=\"m14.7 10.8 1-.4\" /> <path d=\"m13.4 8.3-.3.9\" />"
+      },
+      {
+        "name": "Docker",
+        "group": "infra",
+        "note": "Containerised services and local stacks.",
+        "icon": "<path d=\"M22 7.7c0-.6-.4-1.2-.8-1.5l-6.3-3.9a1.72 1.72 0 0 0-1.7 0l-10.3 6c-.5.2-.9.8-.9 1.4v6.6c0 .5.4 1.2.8 1.5l6.3 3.9a1.72 1.72 0 0 0 1.7 0l10.3-6c.5-.3.9-1 .9-1.5Z\" /> <path d=\"M10 21.9V14L2.1 9.1\" /> <path d=\"m10 14 11.9-6.9\" /> <path d=\"M14 19.8v-8.1\" /> <path d=\"M18 17.5V9.4\" />"
+      },
+      {
+        "name": "CI/CD",
+        "group": "infra",
+        "note": "Pipelines that test and deploy every merge.",
+        "icon": "<path d=\"M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z\" /> <path d=\"m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z\" /> <path d=\"M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0\" /> <path d=\"M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5\" />"
+      },
+      {
+        "name": "Monitoring & logs",
+        "group": "infra",
+        "note": "Logs, metrics and alerts in production.",
+        "icon": "<path d=\"M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2\" />"
+      },
+      {
+        "name": "Git / GitHub",
+        "group": "infra",
+        "note": "Reviews, branching and releases.",
+        "icon": "<line x1=\"6\" x2=\"6\" y1=\"3\" y2=\"15\" /> <circle cx=\"18\" cy=\"6\" r=\"3\" /> <circle cx=\"6\" cy=\"18\" r=\"3\" /> <path d=\"M18 9a9 9 0 0 1-9 9\" />"
+      },
+      {
+        "name": "JavaScript",
+        "group": "frontend",
+        "note": "Both sides of the stack.",
+        "icon": "<path d=\"M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4\" /> <path d=\"M14 2v4a2 2 0 0 0 2 2h4\" /> <path d=\"m5 12-3 3 3 3\" /> <path d=\"m9 18 3-3-3-3\" />"
+      },
+      {
+        "name": "React",
+        "group": "frontend",
+        "note": "UI for the APIs I build.",
+        "icon": "<circle cx=\"12\" cy=\"12\" r=\"1\" /> <path d=\"M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z\" /> <path d=\"M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5Z\" />"
+      },
+      {
+        "name": "HTML5",
+        "group": "frontend",
+        "note": "Semantic, accessible markup.",
+        "icon": "<rect width=\"18\" height=\"7\" x=\"3\" y=\"3\" rx=\"1\" /> <rect width=\"9\" height=\"7\" x=\"3\" y=\"14\" rx=\"1\" /> <rect width=\"5\" height=\"7\" x=\"16\" y=\"14\" rx=\"1\" />"
+      },
+      {
+        "name": "CSS3",
+        "group": "frontend",
+        "note": "Layouts and styling.",
+        "icon": "<circle cx=\"13.5\" cy=\"6.5\" r=\".5\" fill=\"currentColor\" /> <circle cx=\"17.5\" cy=\"10.5\" r=\".5\" fill=\"currentColor\" /> <circle cx=\"8.5\" cy=\"7.5\" r=\".5\" fill=\"currentColor\" /> <circle cx=\"6.5\" cy=\"12.5\" r=\".5\" fill=\"currentColor\" /> <path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z\" />"
+      }
+    ]
+  },
+  "practice": {
+    "heading": "How I build",
+    "title": "How I build",
+    "intro": "Follow one request through a backend I'd design, then see how the code is tested, shipped and watched. Pick any stage.",
+    "phases": {
+      "request": "Request path",
+      "delivery": "Delivery"
+    },
+    "stages": [
+      {
+        "id": "auth",
+        "tone": "violet",
+        "phase": "request",
+        "title": "Authenticate",
+        "text": "Every request proves who it is before it touches data: signed tokens, OAuth sign-in and role-based access.",
+        "tools": [
+          "JWT",
+          "OAuth 2.0",
+          "Role-based access"
+        ],
+        "icon": "<path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\" /><path d=\"m9 12 2 2 4-4\" />"
+      },
+      {
+        "id": "api",
+        "tone": "blue",
+        "phase": "request",
+        "title": "Validate & route",
+        "text": "Versioned REST contracts with input validation, so clients get clear errors and old integrations keep working.",
+        "tools": [
+          "REST",
+          "Express",
+          "Laravel"
+        ],
+        "icon": "<circle cx=\"6\" cy=\"19\" r=\"3\" /><path d=\"M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15\" /><circle cx=\"18\" cy=\"5\" r=\"3\" />"
+      },
+      {
+        "id": "cache",
+        "tone": "amber",
+        "phase": "request",
+        "title": "Cache",
+        "text": "Hot reads and sessions come from Redis, so the database only does work it has to.",
+        "tools": [
+          "Redis",
+          "Sessions",
+          "TTL strategy"
+        ],
+        "icon": "<path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\" />"
+      },
+      {
+        "id": "db",
+        "tone": "teal",
+        "phase": "request",
+        "title": "Query",
+        "text": "Indexes, query plans and safe migrations keep reads fast as tables grow.",
+        "tools": [
+          "MySQL",
+          "PostgreSQL",
+          "MongoDB"
+        ],
+        "icon": "<ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\" /><path d=\"M3 5V19A9 3 0 0 0 21 19V5\" /><path d=\"M3 12A9 3 0 0 0 21 12\" />"
+      },
+      {
+        "id": "queue",
+        "tone": "rose",
+        "phase": "request",
+        "title": "Offload",
+        "text": "Slow work like emails, reports and third-party calls goes to a queue, so the response returns right away.",
+        "tools": [
+          "Job queues",
+          "Workers",
+          "Cron"
+        ],
+        "icon": "<rect width=\"8\" height=\"8\" x=\"3\" y=\"3\" rx=\"2\" /><path d=\"M7 11v4a2 2 0 0 0 2 2h4\" /><rect width=\"8\" height=\"8\" x=\"13\" y=\"13\" rx=\"2\" />"
+      },
+      {
+        "id": "test",
+        "tone": "green",
+        "phase": "delivery",
+        "title": "Test",
+        "text": "Unit and integration tests run on every change, so refactoring legacy code is safe rather than scary.",
+        "tools": [
+          "Unit tests",
+          "Integration tests",
+          "Code review"
+        ],
+        "icon": "<path d=\"M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2\" /><path d=\"M8.5 2h7\" /><path d=\"M7 16h10\" />"
+      },
+      {
+        "id": "ship",
+        "tone": "blue",
+        "phase": "delivery",
+        "title": "Ship",
+        "text": "Code is containerised with Docker and deployed by a CI/CD pipeline, not by hand at midnight.",
+        "tools": [
+          "Docker",
+          "CI/CD",
+          "AWS",
+          "IIS"
+        ],
+        "icon": "<path d=\"M22 7.7c0-.6-.4-1.2-.8-1.5l-6.3-3.9a1.72 1.72 0 0 0-1.7 0l-10.3 6c-.5.2-.9.8-.9 1.4v6.6c0 .5.4 1.2.8 1.5l6.3 3.9a1.72 1.72 0 0 0 1.7 0l10.3-6c.5-.3.9-1 .9-1.5Z\" /><path d=\"M10 21.9V14L2.1 9.1\" /><path d=\"m10 14 11.9-6.9\" /><path d=\"M14 19.8v-8.1\" /><path d=\"M18 17.5V9.4\" />"
+      },
+      {
+        "id": "watch",
+        "tone": "amber",
+        "phase": "delivery",
+        "title": "Watch",
+        "text": "Structured logs, metrics and alerts flag a problem before users report it.",
+        "tools": [
+          "Logging",
+          "Monitoring",
+          "Alerts"
+        ],
+        "icon": "<path d=\"M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2\" />"
+      }
+    ]
+  },
+  "api": {
+    "heading": "API",
+    "title": "Query my API",
+    "intro": "I build APIs for a living, so this part of the page is one. Choose an endpoint and press Send.",
+    "endpoints": [
+      {
+        "key": "profile",
+        "label": "/profile",
+        "path": "/v1/engineers/arslan-gul",
+        "body": {
+          "name": "M Arslan Gul",
+          "role": "Senior Software Engineer",
+          "location": "Islamabad, Pakistan",
+          "experience_years": 10,
+          "domains": [
+            "healthcare",
+            "iot",
+            "fraud-detection"
+          ],
+          "specialties": [
+            "backend systems",
+            "REST APIs",
+            "microservices",
+            "legacy modernization"
+          ],
+          "awards": 2,
+          "mentoring": true
+        }
+      },
+      {
+        "key": "stack",
+        "label": "/stack",
+        "path": "/v1/engineers/arslan-gul/stack",
+        "body": {
+          "backend": [
+            "Node.js",
+            "Express.js",
+            "Socket.io",
+            "PHP",
+            "Laravel",
+            "CodeIgniter"
+          ],
+          "data": [
+            "MySQL",
+            "PostgreSQL",
+            "SQL Server",
+            "MongoDB",
+            "Redis",
+            "Elasticsearch"
+          ],
+          "ai": [
+            "OpenAI API"
+          ],
+          "infrastructure": [
+            "AWS",
+            "IIS",
+            "Docker",
+            "CI/CD",
+            "Git"
+          ],
+          "practices": [
+            "JWT / OAuth",
+            "queues & background jobs",
+            "automated testing",
+            "monitoring & logging"
+          ],
+          "frontend": [
+            "React",
+            "JavaScript",
+            "HTML5",
+            "CSS3"
+          ]
+        }
+      },
+      {
+        "key": "status",
+        "label": "/status",
+        "path": "/v1/engineers/arslan-gul/status",
+        "body": {
+          "company": "Naviquis",
+          "title": "Senior Software Engineer",
+          "since": "2023-07",
+          "current_focus": [
+            "AI-powered features",
+            "Elasticsearch search",
+            "IIS deployments"
+          ],
+          "active_projects": 4,
+          "reviewing_code": true
+        }
+      },
+      {
+        "key": "awards",
+        "label": "/awards",
+        "path": "/v1/engineers/arslan-gul/awards",
+        "body": [
+          {
+            "title": "Most Valuable Player / Employee of the Year",
+            "org": "Zigron",
+            "date": "2019-11",
+            "for": "DentaLens"
+          },
+          {
+            "title": "Employee of the Quarter II",
+            "org": "Zigron",
+            "date": "2019-05"
+          }
+        ]
+      }
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition",
+    "title": "Recognition",
+    "intro": "Two awards, two degrees and a tournament I help run.",
+    "items": [
+      {
+        "kind": "award",
+        "year": "2019",
+        "title": "Most Valuable Player, Employee of the Year",
+        "text": "Zigron, Nov 2019. For my work on the DentaLens fraud-detection team.",
+        "icon": "<path d=\"M6 9H4.5a2.5 2.5 0 0 1 0-5H6\" /><path d=\"M18 9h1.5a2.5 2.5 0 0 0 0-5H18\" /><path d=\"M4 22h16\" /><path d=\"M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22\" /><path d=\"M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22\" /><path d=\"M18 2H6v7a6 6 0 0 0 12 0V2Z\" />"
+      },
+      {
+        "kind": "award",
+        "year": "2019",
+        "title": "Employee of the Quarter II",
+        "text": "Zigron, May 2019. For outstanding performance in Q2.",
+        "icon": "<path d=\"M6 9H4.5a2.5 2.5 0 0 1 0-5H6\" /><path d=\"M18 9h1.5a2.5 2.5 0 0 0 0-5H18\" /><path d=\"M4 22h16\" /><path d=\"M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22\" /><path d=\"M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22\" /><path d=\"M18 2H6v7a6 6 0 0 0 12 0V2Z\" />"
+      },
+      {
+        "kind": "list",
+        "title": "Education & training",
+        "icon": "<path d=\"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z\" /><path d=\"M22 10v6\" /><path d=\"M6 12.5V16a6 3 0 0 0 12 0v-3.5\" />",
+        "list": [
+          {
+            "title": "MS, Software Engineering",
+            "detail": "Bahria University · 2018–2021"
+          },
+          {
+            "title": "BS, Software Engineering",
+            "detail": "Bahria University · 2011–2015"
+          },
+          {
+            "title": "Workshops",
+            "detail": "REST API test automation (2016) · Frontend frameworks, S&P Global (2018)"
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Core organizer, Zigron Cricket Fiesta",
+        "text": "Since 2017, one of the largest IT-industry tournaments in Rawalpindi and Islamabad. I schedule matches and coordinate the teams.",
+        "icon": "<path d=\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\" /><path d=\"M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66\" /><path d=\"m18 15-2-2\" /><path d=\"m15 18-2-2\" />"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Contact",
+    "title": "Need a backend that holds up? Let's talk.",
+    "lede": "A few lines about the project or role is plenty. I read every message myself.",
+    "endpoint": "",
+    "topicsLabel": "What's it about?",
+    "topics": [
+      "Backend project",
+      "API integration",
+      "AI feature",
+      "Full-time role",
+      "Something else"
+    ]
+  },
+  "footer": {
+    "headline": "Have an API to build or a system that needs to <em>scale</em>?",
+    "cta": {
+      "label": "Start a conversation",
+      "href": "#contact"
+    },
+    "bio": "Senior Software Engineer. Backends, APIs and integrations for healthcare, IoT and fraud detection.",
+    "sectionLinks": [
+      {
+        "id": "about",
+        "label": "About"
+      },
+      {
+        "id": "experience",
+        "label": "Experience"
+      },
+      {
+        "id": "work",
+        "label": "Work"
+      },
+      {
+        "id": "stack",
+        "label": "Skills"
+      },
+      {
+        "id": "practice",
+        "label": "How I build"
+      },
+      {
+        "id": "recognition",
+        "label": "Recognition"
+      }
+    ]
+  }
+}
