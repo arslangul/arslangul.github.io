@@ -106,23 +106,39 @@
     ],
     "portraitHint": "Hover for colour"
   },
-  "marquee": [
-    "Node.js",
-    "Express",
-    "Laravel",
-    "REST APIs",
-    "Microservices",
-    "OpenAI API",
-    "Elasticsearch",
-    "MySQL",
-    "PostgreSQL",
-    "MongoDB",
-    "Redis",
-    "Docker",
-    "CI/CD",
-    "AWS",
-    "IIS"
-  ],
+  "marquee": {
+    "_note": "Two rows of skill chips under the hero. Names must match skills.items[].name (the icon comes from there).",
+    "rows": [
+      [
+        "Node.js",
+        "Express.js",
+        "PHP",
+        "Laravel",
+        "REST API design",
+        "Microservices",
+        "OpenAI API",
+        "Elasticsearch",
+        "Socket.io",
+        "JWT / OAuth",
+        "Queues & jobs",
+        "CodeIgniter"
+      ],
+      [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "SQL Server",
+        "Docker",
+        "CI/CD",
+        "AWS",
+        "IIS",
+        "Monitoring & logs",
+        "Automated testing",
+        "Git / GitHub"
+      ]
+    ]
+  },
   "about": {
     "heading": "About",
     "facts": [
