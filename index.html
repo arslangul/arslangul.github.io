@@ -27,6 +27,7 @@
   <script>
     document.documentElement.classList.add('js');
     if (matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('reduced');
+    try { if (sessionStorage.getItem('intro-seen')) document.documentElement.classList.add('intro-seen'); } catch (e) {}
     try { if (localStorage.getItem('theme') === 'light') document.documentElement.dataset.theme = 'light'; } catch (e) {}
     try { var a = localStorage.getItem('accent'); if (/^(ocean|violet|cyan|rose|amber|mono|lagoon|sunset|borealis|citrus|royal)$/.test(a)) document.documentElement.dataset.accent = a; } catch (e) {}
   </script>
@@ -41,6 +42,15 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- First-visit intro (scripts/core/motion.js); hidden on later visits and with reduced motion -->
+  <div class="intro" id="intro" aria-hidden="true">
+    <div class="intro__inner">
+      <span class="intro__mark"></span>
+      <span class="intro__bar"><i></i></span>
+      <span class="intro__count">000</span>
+    </div>
+  </div>
 
 
   <!-- ================= Side rail (desktop) / top bar (mobile) ================= -->
