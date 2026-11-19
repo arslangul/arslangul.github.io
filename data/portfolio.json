@@ -17,7 +17,10 @@
       "CI/CD",
       "OpenAI API",
       "Elasticsearch",
-      "AWS"
+      "AWS",
+      "Zoho CRM",
+      "Creatio",
+      "JavaScript"
     ]
   },
   "profile": {
@@ -121,7 +124,9 @@
         "Socket.io",
         "JWT / OAuth",
         "Queues & jobs",
-        "CodeIgniter"
+        "CodeIgniter",
+        "Zoho CRM",
+        "Creatio"
       ],
       [
         "MySQL",
@@ -1093,7 +1098,7 @@
       {
         "name": "Third-party APIs",
         "group": "ai",
-        "note": "Extending platforms with external services.",
+        "note": "Connecting platforms to external services and keeping data in sync.",
         "icon": "<path d=\"M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Z\" /> <path d=\"m2 22 3-3\" /> <path d=\"M7.5 13.5 10 11\" /> <path d=\"M10.5 16.5 13 14\" /> <path d=\"m18 3-4 4h6l-4 4\" />"
       },
       {
@@ -1105,8 +1110,14 @@
       {
         "name": "Zoho CRM",
         "group": "ai",
-        "note": "CRM integration work.",
+        "note": "Zoho CRM integrations with in-house and third-party systems.",
         "icon": "<path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\" /> <circle cx=\"9\" cy=\"7\" r=\"4\" /> <path d=\"M22 21v-2a4 4 0 0 0-3-3.87\" /> <path d=\"M16 3.13a4 4 0 0 1 0 7.75\" />"
+      },
+      {
+        "name": "Creatio",
+        "group": "ai",
+        "note": "Certified: Creatio No-Code and Creatio Developer. Building and extending business apps on the platform.",
+        "icon": "<path d=\"M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z\" /><path d=\"m9 12 2 2 4-4\" />"
       },
       {
         "name": "AWS",
@@ -1147,7 +1158,7 @@
       {
         "name": "JavaScript",
         "group": "frontend",
-        "note": "Both sides of the stack.",
+        "note": "Frontend and backend: browser UI and Node.js services.",
         "icon": "<path d=\"M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4\" /> <path d=\"M14 2v4a2 2 0 0 0 2 2h4\" /> <path d=\"m5 12-3 3 3 3\" /> <path d=\"m9 18 3-3-3-3\" />"
       },
       {
@@ -1312,7 +1323,11 @@
             "legacy modernization"
           ],
           "awards": 2,
-          "mentoring": true
+          "mentoring": true,
+          "certifications": [
+            "Creatio Developer",
+            "Creatio No-Code"
+          ]
         }
       },
       {
@@ -1357,6 +1372,12 @@
             "JavaScript",
             "HTML5",
             "CSS3"
+          ],
+          "integrations": [
+            "Zoho CRM",
+            "Creatio",
+            "SAP Marketing Cloud",
+            "third-party APIs"
           ]
         }
       },
@@ -1392,6 +1413,16 @@
             "title": "Employee of the Quarter II",
             "org": "Zigron",
             "date": "2019-05"
+          },
+          {
+            "title": "Creatio Developer",
+            "org": "Creatio",
+            "type": "certification"
+          },
+          {
+            "title": "Creatio No-Code",
+            "org": "Creatio",
+            "type": "certification"
           }
         ]
       }
@@ -1400,7 +1431,7 @@
   "recognition": {
     "heading": "Recognition",
     "title": "Recognition",
-    "intro": "Two awards, two degrees and a tournament I help run.",
+    "intro": "Two awards, two Creatio certifications, two degrees and a tournament I help run.",
     "items": [
       {
         "kind": "award",
@@ -1418,7 +1449,7 @@
       },
       {
         "kind": "list",
-        "title": "Education & training",
+        "title": "Education, certifications & training",
         "icon": "<path d=\"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z\" /><path d=\"M22 10v6\" /><path d=\"M6 12.5V16a6 3 0 0 0 12 0v-3.5\" />",
         "list": [
           {
@@ -1428,6 +1459,10 @@
           {
             "title": "BS, Software Engineering",
             "detail": "Bahria University · 2011–2015"
+          },
+          {
+            "title": "Creatio certifications",
+            "detail": "Creatio Developer · Creatio No-Code"
           },
           {
             "title": "Workshops",
